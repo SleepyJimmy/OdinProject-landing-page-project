@@ -104,3 +104,26 @@
     height: 125px;
     border-radius: 10px;
 }
+
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    margin-top: 6%;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.quote-section p {
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+    font-size: 24px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.author {
+    text-align: end;
+}
