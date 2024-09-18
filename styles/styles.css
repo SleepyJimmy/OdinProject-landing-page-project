@@ -1,15 +1,25 @@
-.flex-container {
+* {
+    font-family: 'Roboto';
+}
+
+.hero-container {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 20px;
     display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
-.flex-container div {
-    background: peachpuff;
-    border: 4px solid black;
-    height: 100px;
-    width: 250px;
-    flex: 1 1 auto;
+.hero-right-container {
+    display: flex;
+    font-size: 14px;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.flex-container .two {
-    flex: 1 1 1000px;
+.hero-right-container div {
+    margin-left: 2%;
 }
