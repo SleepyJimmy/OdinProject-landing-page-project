@@ -133,8 +133,8 @@
     background-color: #3882f6;
     justify-content: space-around;
     margin: 5% 10% 5% 10%;
-    padding: 2%;
-    border-radius: 10px;
+    padding: 3%;
+    border-radius: 6px;
     color: #e5e7eb;
 }
 
@@ -146,4 +146,12 @@
 .call-to-action-section > .button {
     color: #f9faf8;
     border: white 1px solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: #e5e7eb;
+    padding: 3%;
+    margin-top: auto;
 }
