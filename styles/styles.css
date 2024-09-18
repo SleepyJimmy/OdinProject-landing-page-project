@@ -127,3 +127,23 @@
 .author {
     text-align: end;
 }
+
+.call-to-action-section {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    margin: 5% 10% 5% 10%;
+    padding: 2%;
+    border-radius: 10px;
+    color: #e5e7eb;
+}
+
+.call-to-action-section p, .call-to-action-section h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action-section > .button {
+    color: #f9faf8;
+    border: white 1px solid;
+}
